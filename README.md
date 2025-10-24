@@ -1,6 +1,6 @@
 # Anti-AI-Rhetoric
 
-A prompt to eliminate AI writing patterns and produce clear, functional prose.
+This prompt fixes the patterns that make AI writing sound like AI writing.
 
 ## The Problem
 
@@ -11,8 +11,9 @@ AI writing falls into predictable patterns:
 - Vague openings ("In today's rapidly changing world...")
 - Business jargon ("synergy", "leverage", "paradigm shift")
 - Empty intensifiers ("clearly", "obviously", "particularly")
+- Rhetorical formulas ("Not X, but Y", "The real question is...")
 
-Result: text that sounds impressive but says little.
+Text that sounds impressive but says little.
 
 ## Core Principle
 
@@ -20,15 +21,17 @@ Result: text that sounds impressive but says little.
 
 ## What It Changes
 
-**Sentence rhythm:** Requires at least one 30+ word sentence and one 5-8 word sentence every 3-4 paragraphs. Prevents uniform medium-length sentences.
+**Jargon:** Removes 60+ common business buzzwords, hyperbolic adjectives, and weak intensifiers.
 
-**Openings:** No vague scene-setting. Start with specific observation, data, or thesis.
-
-**Examples:** Real names, dates, numbers—not "a company" or "research shows."
+**Structural patterns:** Eliminates rhetorical formulas used decoratively, forced triads, clickbait titles, pseudo-philosophical endings.
 
 **Formatting:** Bold and lists only when they serve clarity, not decoration.
 
-**Jargon:** Removes 60+ common business buzzwords and weak intensifiers.
+**Openings:** No vague scene-setting. Start with specific observation, data, or thesis.
+
+**Sentence rhythm:** Requires at least one 30+ word sentence and one 5-8 word sentence every 3-4 paragraphs. Prevents uniform medium-length sentences.
+
+**Examples:** Real names, dates, numbers - not "a company" or "research shows."
 
 **Closings:** Concrete next step or implication, not philosophical drift.
 
