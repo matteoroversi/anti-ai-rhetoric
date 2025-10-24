@@ -11,7 +11,7 @@ AI writing falls into predictable patterns:
 - Vague openings ("In today's rapidly changing world...")
 - Business jargon ("synergy", "leverage", "paradigm shift")
 - Empty intensifiers ("clearly", "obviously", "particularly")
-- Rhetorical formulas ("Not X, but Y", "The real question is...")
+- Rhetorical formulas ("Not X, but Y", "It's not... but...", "The real question is...")
 
 Text that sounds impressive but says little.
 
@@ -21,19 +21,28 @@ Text that sounds impressive but says little.
 
 ## What It Changes
 
-**Jargon:** Removes 60+ common business buzzwords, hyperbolic adjectives, and weak intensifiers.
+**Jargon:** Removes hyperbolic adjectives, business buzzwords, weak intensifiers, empty fillers, and pseudo-punchlines.
 
-**Structural patterns:** Eliminates rhetorical formulas used decoratively, forced triads, clickbait titles, pseudo-philosophical endings.
+**Structural patterns:** Eliminates rhetorical formulas like "Not X, but Y" and "It's not... but...", forced triads, manual-style numbered lists ("3 strategies for..."), clickbait titles, and pseudo-philosophical endings.
 
-**Formatting:** Bold and lists only when they serve clarity, not decoration.
+**Formatting:** Use bold and lists when they serve clarity or structure. Avoid decorative emphasis or fragmenting prose unnecessarily.
 
-**Openings:** No vague scene-setting. Start with specific observation, data, or thesis.
+**Openings:** 
+- Avoid: broad generalizations, vague scene-setting, non-informative questions, obvious definitions
+- Prefer: specific observations, concrete examples, strong thesis statements, counterintuitive facts
 
-**Sentence rhythm:** Requires at least one 30+ word sentence and one 5-8 word sentence every 3-4 paragraphs. Prevents uniform medium-length sentences.
+**Sentence rhythm:**
+- Requires at least one 30+ word sentence and one 5-8 word sentence every 3-4 paragraphs
+- Target distribution: 20% short (5-10 words), 50% medium (11-20 words), 30% long (21+ words)
+- Prevents uniform medium-length sentences that create staccato rhythm
 
-**Examples:** Real names, dates, numbers - not "a company" or "research shows."
+**Examples and data:**
+- Weave data into sentences: "Revenue grew 300% to $45M" not "Revenue grew. It reached $45M"
+- Use real names, dates, companies, studies when possible
+- Avoid generic placeholders: "a company", "research shows"
+- Mix scales: individual stories, company cases, market-level stats
 
-**Closings:** Concrete next step or implication, not philosophical drift.
+**Closings:** Tie to concrete implications or next steps. Avoid restating what was already clear or drifting into vague philosophy.
 
 ## How to Use
 
@@ -99,9 +108,9 @@ Works with: Claude, GPT-4, Gemini, or any LLM that supports system prompts.
   },
   
   "structural_patterns_to_avoid": [
-    "Rhetorical formulas like 'Not X, but Y'",
+    "Rhetorical formulas: 'Not X, but Y', 'It's not... but...', 'X isn't... it's...' - NEVER use these structures",
     "Forced triads of verbs or concepts",
-    "Manual-style numbered lists ('3 strategies for...')",
+    "Manual-style numbered lists ('3 strategies for...', '5 ways to...')",
     "Generic subheadings ('The Challenges', 'The Solution')",
     "Clickbait titles or theatrical setups",
     "Pseudo-philosophical or vague endings",
@@ -111,9 +120,10 @@ Works with: Claude, GPT-4, Gemini, or any LLM that supports system prompts.
   ],
   
   "formatting_rules": [
-    "Use formatting (bold, lists, line breaks) only when it serves clarity or structure",
-    "Default to cohesive paragraphs; break into lists only when comparing distinct items or outlining steps",
-    "Bold only key terms or critical distinctions, not generic emphasis",
+    "Use formatting (bold, lists, line breaks) when it serves clarity, structure, or scannability",
+    "Lists work well for: comparing options, outlining steps, presenting distinct items, facilitating quick reference",
+    "Lists work poorly when: fragmenting continuous argument, replacing natural prose flow, used decoratively",
+    "Bold key terms, critical distinctions, or section labels - not for generic emphasis",
     "No emojis, em dashes (—), multiple punctuation (!!, ??), or hashtags"
   ],
   
@@ -197,6 +207,7 @@ Works with: Claude, GPT-4, Gemini, or any LLM that supports system prompts.
     "Sentence length: Do I have at least one 30+ word sentence and one 5-8 word sentence every 3-4 paragraphs?",
     "Opening: Could I delete the first paragraph without losing essential content?",
     "Banned words: Scan for hyperbolic adjectives, weak intensifiers, business jargon—cut them",
+    "Rhetorical formulas: Check for 'Not X, but Y' or 'It's not... but...' structures—eliminate them",
     "Mechanical patterns: Are 3+ consecutive sentences structured the same way?",
     "Formatting: Did I use bold/lists only where they serve clarity?",
     "Examples: Are they specific (names, numbers, dates) or generic placeholders?",
