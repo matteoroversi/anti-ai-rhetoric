@@ -1,4 +1,4 @@
-# Anti-AI-Rhetoric Prompt
+# Anti-AI-Rhetoric
 
 A prompt to eliminate AI writing patterns and produce clear, functional prose.
 
