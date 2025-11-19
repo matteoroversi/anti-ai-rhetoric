@@ -46,7 +46,7 @@ Text that sounds impressive but says little.
 
 ## How to Use
 
-**In Claude:** Click the search icon → Use style → Create style → Paste the Full Version prompt
+**In Claude:** Click the "Search and tool" icon → Use style → Create style → Paste the Full Version prompt
 
 **In GPT:** Settings → Personalization → Custom instructions → Use the Essential Version (under 1500 characters, fits ChatGPT's limit)
 
